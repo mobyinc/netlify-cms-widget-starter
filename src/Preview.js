@@ -1,10 +1,12 @@
-import PropTypes from 'prop-types';
 import React from 'react';
 
-export default function Preview({ value }) {
-  return <div>{ value }</div>;
-}
+export default class Preview extends React.Component {
+  render() {
+    console.log(this.props);
+    const { value } = this.props;
 
-Preview.propTypes = {
-  value: PropTypes.node,
-};
+    return (
+      <div>Content Block</div>
+    )
+  }
+}

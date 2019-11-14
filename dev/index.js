@@ -15,9 +15,19 @@ const config = {
     files: [{
       file: 'test.yml',
       name: 'test',
-      label: 'Test',
+      label: 'Content',
       fields: [
-        { name: 'test_widget', label: 'Test Widget', widget: 'test'},
+        {
+          label: 'Content', 
+          name: 'content', 
+          widget: 'list', 
+          fields: [{ 
+            label: 'Content', 
+            name: 'test_widget',
+            widget: 'test',
+            blocks: ['string', 'image', 'markdown']
+          }]
+        },
       ],
     }],
   }],

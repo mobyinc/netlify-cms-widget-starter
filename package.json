@@ -1,6 +1,6 @@
 {
-  "name": "netlify-cms-widget-starter",
-  "description": "A boilerplate for creating Netlify CMS widgets.",
+  "name": "netlify-cms-widget-contentblocksexample",
+  "description": "An example Netlify widget that implements a dynamic list of widgets",
   "keywords": [
     "netlify",
     "netlify-cms",
@@ -10,7 +10,7 @@
     "boilerplate"
   ],
   "version": "0.0.1",
-  "homepage": "https://github.com/netlify/netlify-cms-widget-starter",
+  "homepage": "https://github.com/mobyinc/netlify-cms-widget-contentblocksexample",
   "license": "MIT",
   "main": "dist/main.js",
   "devDependencies": {
