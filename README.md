@@ -15,7 +15,7 @@ npm install --save netlify-cms-widget-contentblocksexample
 ```js
 import contentblocksexample from 'netlify-cms-widget-contentblocksexample'
 
-CMS.registerWidget('contentblocksexample', contentblocksexampleControl, contentblocksexamplePreview)
+CMS.registerWidget('contentblocksexample', ContentBlocksExampleControl, ContentBlocksExamplePreview)
 ```
 
 Via `script` tag:
